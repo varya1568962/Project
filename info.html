@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о пекарне</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="info.html">Информация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info-section">
+            <h1>Информация о наших пекарнях</h1>
+            <div class="bakery-points">
+                <div class="bakery-card">
+                    <img src="bakery1.jpg" alt="Пекарня 1">
+                    <h2>Пекарня на Рю-дю-Бак</h2>
+                    <p>Наша первая пекарня, открытая в 1990 году. Здесь мы печем хлеб по старинным рецептам.</p>
+                    <button onclick="showIngredients('bakery1')">Просмотреть состав</button>
+                    <div id="bakery1-ingredients" class="ingredients" style="display: none;">
+                        <h3>Состав продуктов:</h3>
+                        <ul>
+                            <li>Мука</li>
+                            <li>Дрожжи</li>
+                            <li>Соль</li>
+                            <li>Вода</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bakery-card">
+                    <img src="bakery2.jpg" alt="Пекарня 2">
+                    <h2>Пекарня на Монмартре</h2>
+                    <p>Новая пекарня в самом сердце Парижа, предлагающая широкий ассортимент выпечки.</p>
+                    <button onclick="showIngredients('bakery2')">Просмотреть состав</button>
+                    <div id="bakery2-ingredients" class="ingredients" style="display: none;">
+                        <h3>Состав продуктов:</h3>
+                        <ul>
+                            <li>Мука</li>
+                            <li>Дрожжи</li>
+                            <li>Соль</li>
+                            <li>Вода</li>
+                            <li>Масло</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Французская пекарня. Все права защищены.</p>
+    </footer>
+
+    <script>
+        function showIngredients(bakeryId) {
+            const ingredients = document.getElementById(bakeryId + '-ingredients');
+            ingredients.style.display = ingredients.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
+
+
+
