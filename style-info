@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E1C3B8;
+    color: #333;
+}
+
+header {
+    background-color: #8B664F;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bakery-card {
+    background-color: #928E5D;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(50% - 40px);
+}
+
+.bakery-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bakery-card h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.bakery-card p {
+    color: #666;
+}
+
+.bakery-card button {
+    background-color: #D8A39B;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.ingredients {
+    margin-top: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #8B664F;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.bakery-points {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+
+
+
