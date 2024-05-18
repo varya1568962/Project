@@ -38,7 +38,6 @@ nav a {
     object-fit: cover;
 }
 
-
 .products {
     align-items: center;
     justify-content: center;
@@ -47,5 +46,10 @@ nav a {
     margin: 10px;
 }
 
+
+nav a:hover {
+    background-color: #D8A39B;
+    padding: 5px;
+}
 
 
